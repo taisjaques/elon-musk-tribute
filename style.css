@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('MyriadPro-Regular.woff2') format('woff2'),
+         url('MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#elon_musk_tribuete_logo {
+	width: 50%;
+	margin: 2em auto;
+}
+
+#seção1 {
+	position: relative;
+}
+
+#elon-spacex {
+
+}
+
+#redbox {
+	position: absolute;
+	background-color: rgba(137,0,0,0.8);
+	height: 50%;
+	top: 25%;
+	padding: 1em;
+	width: 22%;	
+	left: 10%
+}
+
+#premiações {
+	background-color: rgb(137,0,0);
+}
+
+#lista1 {
+
+}
+
+#premio {
+	
+}
+
+#lista2 {
+}
+
+/*#premiações {
+	position: relative;
+	background-color: rgb(137,0,0);
+	padding: 5em 0em;
+}
+
+#lista1 {
+	position: absolute;
+	left: 10%
+}
+
+#premio {
+	position: absolute;
+	
+}
+
+#lista2 {
+	position: absolute;
+	right: 10%
+}
