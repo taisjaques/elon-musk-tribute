@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('MyriadPro-Regular.woff2') format('woff2'),
+         url('MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+
+body {
+	color: black;
+	font-family: 'PT Sans', sans-serif;
+}
+.row {
+	margin: 0;
+}
+#elon_musk_tribuete_logo {
+	width: 50%;
+	margin: 2em auto;
+}
+#seção1 {
+	position: relative;
+}
+#redbox {
+	position: absolute;
+	background-color: rgba(137,0,0,0.8);
+	/*height: 50%;*/
+	height: auto;
+	top: 25%;
+	padding: 1em 2em;
+	width: 22%;	
+	left: 10%;
+	font-size:1.6em;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+#whiteboxseção p {
+	margin: 0;
+}
+#whiteboxseção.col-md-6 {
+	padding:5%;
+}
+/*reescreve o Boodstrap que estava impedindo a foto de ficar 100%*/
+#elonseção {
+	padding: 0;
+}
+#elon {
+	width: 100%;
+}
+#premiações {
+	position: relative;
+	background-color: rgb(137,0,0);
+	padding: 5em 0em;
+}
+#premio {
+	position: absolute;
+	width: 13em;
+	top: 40%;
+	left: 43.2%;
+}
+#textopremio {
+	position: absolute;
+	top: 30%;
+	left: 31%;
+	font-weight: bold;
+}
+/* COMO DIVIDIR O TEXTO EM COLUNAS
+- colum-width: Define a largura de cada coluna que será criada;
+- column-gap: Define  a largura do espaço em branco entre cada coluna;
+- column-rule: Define as características da linha que delimita a divisória entre as colunas;
+- column-count: Define o número máximo de colunas que dividirão o texto.
+.largura-colunas{
+   -moz-column-width: 100px;
+   -moz-column-gap: 15px;
+   -moz-column-rule: 1px solid #666;
+   -webkit-column-width: 100px;
+   -webkit-column-gap: 15px;
+   -webkit-column-rule: 1px solid #666;
+}
+.numero-colunas{
+   -moz-column-count: 3;
+   -moz-column-gap: 15px;
+   -moz-column-rule: 1px solid #ccc;
+   -webkit-column-count: 3;
+   -webkit-column-gap: 15px;
+   -webkit-column-rule: 1px solid #ccc;
+}
+   */
+#lista {
+   -moz-column-count: 2;
+   -moz-column-gap: 18em;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 18em;
+   padding-left: 2em;
+   padding-right: 4em; 
+ }
+#lista ul {
+	margin-bottom: 0;
+}	
+footer {
+	background-color: black;
+	color: white;
+	padding:2em;
+	font-size: 1.5em;
+}
+@media (max-width: 1216px) {
+	#elon_musk_tribuete_logo {
+		width: 80%;
+	}
+	#redbox {
+		position: relative;
+		background-color: rgba(137,0,0,0.9);
+		height: 100%;
+		top: 0;
+		padding: 1em 2em;
+		width: 100%;	
+		left: 0;
+		font-size:1.3em;
+		font-weight: bold;
+		line-height: 1.3em;
+		margin: 0;
+	}
+	#whiteboxseção.col-md-6 {
+		padding:1em;
+		margin: 0;
+	}
+	#premiações {
+		position: relative;
+		background-color: rgb(137,0,0);
+		padding: 0;
+		margin: 0;
+	}
+	#premio {
+		position: relative;
+		margin: 2em auto 1em auto;
+		width: 18%;
+		top: auto;
+		left: auto;
+	}
+	#lista {
+	   -moz-column-count: 2;
+	   -moz-column-gap: 1.5em;
+	   -webkit-column-count: 2;
+	   -webkit-column-gap: 1.5em;
+	   padding-left: 1em;
+	   padding-right: 2.5em;
+	   padding-top: 1em;
+	   padding-bottom: 2em; 
+	}
+	#lista li {
+		margin-left: -13px;
+	}
+	#lista ul {
+		margin-bottom: 0;
+	}	
+	footer {
+		background-color: black;
+		color: white;
+		padding:1em;
+		font-size: 1.2em;
+	}
+}
+@media (max-width: 37em) { 
+	#elon_musk_tribuete_logo {
+		width: 90%;
+	}	
+		#premio {
+		width: 35%;
+		margin: 1em auto 0 auto;
+	}
+	#lista {
+	   -moz-column-count: 1;
+	   -moz-column-gap: 0;
+	   -webkit-column-count: 1;
+	   -webkit-column-gap: 0;
+	   padding-left: 0;
+	   padding-right: 5%; 
+	   padding-top: 1em;
+	}
+}
